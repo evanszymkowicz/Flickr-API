@@ -1,7 +1,6 @@
 $("#search_flickr").submit((event) => {
   event.preventDefault();
   var searchTerm = $("#photo_search").val();
-
   var url = 'https://api.flickr.com/services/rest/';
 
   var data = {
